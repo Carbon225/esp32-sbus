@@ -1,0 +1,12 @@
+menu "SBUS"
+	config SBUS_CHANNEL_MIN
+		int "Min channel period [us]"
+		range 0 2000
+		default 0
+
+	config SBUS_CHANNEL_MAX
+		int "Max channel period [us]"
+		range 0 2000
+		default 2000
+		
+endmenu
